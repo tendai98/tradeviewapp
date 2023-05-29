@@ -38,7 +38,7 @@ def main():
 		widget = generate_widget(symbol)
 		components.html(widget, height=WIDGET_HEIGHT, width=WIDGET_WIDTH)
 
-	 components.html(tape)
+	components.html(tape)
 
 
 main()
